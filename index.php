@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<?php include 'inc/functions.php';?>
+
 <body>
   
   <div class="container">
     <div id="quote-box">
+      <?php include 'inc/functions.php';?>
     <?php echo printQuote($quotes);?>
     </div>
     <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>
